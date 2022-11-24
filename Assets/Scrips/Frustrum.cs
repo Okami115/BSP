@@ -5,7 +5,7 @@ using UnityEngine;
 public class Frustrum : MonoBehaviour
 {
     private const int maxPlanes = 6;
-    private const int maxObj = 4;
+    private const int maxObj = 5;
     private const int maxVertices = 8;
 
     Plane[] planes = new Plane[maxPlanes];
